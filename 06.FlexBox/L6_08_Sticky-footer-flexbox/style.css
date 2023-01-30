@@ -1,0 +1,15 @@
+header {
+  border-bottom: 3px solid black;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background: rgb(238, 238, 238);
+}
+
+footer {
+  color: rgb(255, 255, 255);
+  background: rgb(102, 102, 102);
+  padding: 10px;
+  position: sticky;
+}

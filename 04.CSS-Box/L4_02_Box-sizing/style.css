@@ -1,0 +1,20 @@
+section {
+  width: 250px;
+  height: 250px;
+  border: 3px dotted green;
+  text-align: center;
+}
+
+p {
+  width: 100%;
+  border: 2px solid blue;
+  text-align: center;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;
+}

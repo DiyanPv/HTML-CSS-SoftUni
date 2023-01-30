@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mainaside {
+  display: flex;
+}
+.mainaside main {
+  flex-grow: 1;
+
+}
+
+.mainaside aside {
+  flex-basis: 30%;
+
+}
+header,
+main,
+aside,
+footer {
+  box-shadow: 0px 0px 3px black;
+  background: wheat;
+  padding: 30px;
+  margin: 5px
+}

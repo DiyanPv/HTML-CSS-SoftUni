@@ -1,0 +1,37 @@
+.parallax-container {
+    height: 150vh;
+    overflow-y: scroll;
+ }
+ 
+ .parallax-layer {
+    height: 120vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+ }
+ 
+ 
+
+.layer1 {
+  background-color: black;
+}
+
+.layer2 {
+  background-color: wheat;
+}
+
+.layer3 {
+  background-color: aqua;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 50px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}

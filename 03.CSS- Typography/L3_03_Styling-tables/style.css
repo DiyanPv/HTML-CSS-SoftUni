@@ -1,0 +1,32 @@
+th {
+  border: 1px solid rgb(221, 221, 221);
+}
+
+tr:hover {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+tr:nth-child(even) {
+  background-color: lightblue;
+}
+
+table {
+  border-radius: 3px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+/* table {
+    border-collapse: collapse;
+    width: 50%;
+}
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: gray;
+} */

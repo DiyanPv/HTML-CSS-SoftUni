@@ -1,0 +1,31 @@
+.viewport:nth-child(1) {
+    background: rgb(190, 93, 65);
+    background: linear-gradient(
+      90deg,
+      rgba(190, 93, 65, 1) 0%,
+      rgba(168, 51, 119, 1) 35%,
+      rgba(210, 129, 20, 1) 100%
+    );
+  }
+  .viewport:nth-child(2) {
+    background: rgb(25, 94, 157);
+    background: linear-gradient(
+      90deg,
+      rgba(25, 94, 157, 1) 0%,
+      rgba(44, 146, 159, 1) 35%,
+      rgba(65, 201, 161, 1) 100%
+    );
+  }
+  
+  .viewport {
+    height: 100vh;
+  }
+  
+  .card .img {
+    position: absolute;
+   
+  }
+  
+  body {
+    margin: 0;
+  }

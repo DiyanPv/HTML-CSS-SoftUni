@@ -1,0 +1,43 @@
+div,
+section {
+  display: flex;
+}
+
+div {
+  max-width: 65vw;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.notes {
+  flex-direction: column;
+}
+
+span {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+span:nth-child(1),
+span:nth-child(7) {
+
+  flex-basis: 100%;
+  text-align: center;
+}
+.week {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.notes span {
+ height: 100%;
+}
+
+.week span{
+    flex-grow: 1;
+    text-align: center;
+}

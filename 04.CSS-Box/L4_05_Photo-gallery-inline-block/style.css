@@ -1,0 +1,28 @@
+ul li {
+  border-width: 0.4rem;
+  border: 4px solid black;
+  display: inline-block;
+  margin: 30px;
+}
+body {
+  max-width: 1300px;
+}
+
+html {
+  background-color: bisque;
+}
+
+ul li img {
+  padding: 10px;
+  vertical-align: middle;
+  max-width: 300px;
+
+}
+
+.gallery {
+}
+
+ul {
+  display: inline-block;
+  margin: 30px auto;
+}

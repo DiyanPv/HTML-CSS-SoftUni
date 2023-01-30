@@ -1,0 +1,15 @@
+button {
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+body .hover {
+    color: rgb(251, 251, 251)
+}
+
+body .button {
+    cursor: pointer;
+    outline: none;
+}

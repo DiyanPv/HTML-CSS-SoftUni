@@ -1,0 +1,73 @@
+header {
+  border-bottom: 2px solid black;
+  font-size: 16px;
+}
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  background: #eeeeee;
+}
+
+.site-title {
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+blockquote {
+  float: right;
+  width: 46%;
+  font-style: italic;
+  font-family: Georgia, serif;
+  border-left: 3px solid gray;
+  padding-left: 3%;
+}
+.toleft {
+  width: 47%;
+}
+
+main {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.img2 {
+  float: left;
+  padding: 5px;
+  border: 2px solid black;
+  margin-right: 10px;
+  background: white;
+}
+.author {
+  text-align: right;
+}
+
+.img1 {
+  float: right;
+  background: white;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.phead {
+  max-width: 1000px;
+}
+aside {
+  float: right;
+  display: inline;
+  position: absolute;
+  margin-left: 40px;
+}
+
+aside a {
+  text-decoration: none;
+  color: green;
+}
+
+h1 {
+  font-family: Georgia, serif;
+}
